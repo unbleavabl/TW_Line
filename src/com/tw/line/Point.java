@@ -27,4 +27,8 @@ public class Point {
         result = 31 * result + y;
         return result;
     }
+
+    public double lengthToPoint(Point point) {
+        return Math.sqrt(Math.pow((x - point.x), 2) + Math.pow((y - point.y), 2));
+    }
 }

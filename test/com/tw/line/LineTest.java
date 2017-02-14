@@ -9,6 +9,6 @@ import static org.junit.Assert.assertTrue;
 public class LineTest {
     @Test(expected = IllegalArgumentException.class)
     public void pointsShouldNotBeSameInALine() throws Exception {
-        Line line = new Line(new Point(6, 5), new Point(6, 5));
+        Line line = new Line(new Point(5, 7), new Point(5, 7));
     }
 }
