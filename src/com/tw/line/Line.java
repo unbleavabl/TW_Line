@@ -11,4 +11,8 @@ public class Line {
         this.point1 = point1;
         this.point2 = point2;
     }
+
+    public double length() {
+        return point1.lengthToPoint(point2);
+    }
 }
